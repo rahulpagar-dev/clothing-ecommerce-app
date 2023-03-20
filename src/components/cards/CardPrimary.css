@@ -1,0 +1,35 @@
+.card-primary {
+  display: flex;
+}
+.customCard:hover,
+.customCard-1:hover {
+  background-color: beige;
+}
+.customCard {
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+.group-elements {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.ant-check {
+  width: 25px;
+  height: 30px;
+  justify-content: start;
+  background-color: green;
+}
+.check-button {
+  width: 25px;
+  height: 30px;
+  justify-content: end;
+}
+.buttons {
+  margin-left: 1vh;
+}
+/* .button-group {
+  margin: 0px;
+  margin-left: 5vh;
+} */

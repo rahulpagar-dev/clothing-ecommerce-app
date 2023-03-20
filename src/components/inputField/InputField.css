@@ -1,0 +1,47 @@
+label{
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.input{
+    width: 40vh;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    color: black;
+
+
+}
+
+.input::placeholder{
+    color: black;
+    opacity: 1;
+    height: 6vh;
+}
+
+.button{
+   margin: 2vh; 
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.clear{
+    color: red;
+    background-color: aliceblue;
+}
+.input-container{
+    background-color: gray;
+    text-align: center;
+    height: auto;
+    min-height: 100%;
+    padding: 2vh;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
